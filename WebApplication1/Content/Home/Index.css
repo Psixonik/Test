@@ -1,0 +1,26 @@
+﻿body {
+
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+
+TH {
+    background: #b0e0e6; /* Цвет фона */
+}
+label {
+    width:100px;
+}
+.col {
+    overflow: hidden;
+    max-width: 30px;
+    width: 30%;
+}
+input:required {
+    border: 1px solid red; /* Красная рамка для обязательных полей */
+}
